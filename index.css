@@ -24,7 +24,7 @@ h1{
 }
 p{text-align: center;}
 
-.circle{
+.circle-1{
     width: 100%;
     height: 300px;
     background-color:red;
@@ -34,9 +34,43 @@ p{text-align: center;}
     left: 0px;
     z-index:1;
 }
-.btn{
+.circle-2{
+    width: 100%;
+    height: 300px;
+    background-color:aquamarine;
+    border-radius:50% ;
+    position: absolute;
+    top: -180px;
+    left: 0px;
+    z-index:1;
+}
+.circle-3{
+    width: 100%;
+    height: 300px;
+    background-color:blueviolet;
+    border-radius:50% ;
+    position: absolute;
+    top: -180px;
+    left: 0px;
+    z-index:1;
+}
+.btn-1{
     border: none;
     background-color: red;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+}
+.btn-1{
+    border: none;
+    background-color:aquamarine;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+}
+.btn-3{
+    border: none;
+    background-color:blueviolet;
     padding: 10px 20px;
     border-radius: 30px;
     color: white;
